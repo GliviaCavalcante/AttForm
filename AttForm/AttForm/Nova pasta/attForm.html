@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AttForm</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+  <form>
+
+  <legend id="q1">1.Quais cursos são ofertados na EEEP Amélia Figueiredo de Lavor.</legend>
+  <textarea id="textarea"></textarea> <br>
+
+  <br><legend id="q2">2. Marque as opções que possui os sistemas de numerações novos que aprendemos 
+  na 1° de Informática?</legend>
+  <p>
+  <label>Sistema Octal</label>
+  <input type="checkbox" id="octal">
+  <p>
+  <label>Sistema Binário</label>
+  <input type="checkbox" id="binario">
+  <p>
+  <label>Sistema Decimal</label>
+  <input type="checkbox" id="decimal">
+  <p>
+  <label>Algarismos Hexagonal</label>
+  <input type="checkbox" id="hexagonal">
+  <p>
+
+  <br><legend id="q3">3.Qual o produto abaixo é mais adequado para limpar uma memória RAM?</legend>
+  <p>
+  <label>Álcool Isopropílico</label>
+  <input name="op" type="radio" id="iso">
+  <p>
+  <label>Limpa Contato</label>
+  <input name="op" type="radio" id="cont">
+  <p>
+  <label>Álcool 70%</label>
+  <input name="op" type="radio" id="70p">
+  <p>
+  <label>Água</label>
+  <input name="op" type="radio" id="h2o">
+  <p>
+  <p>
+  <br><legend id="q4">4. Podemos afirmar que o modo de funcionamento de memória RAM em
+   DUAL CHANEL só pode ser feito com <p>pares de módulos de memória. Marque
+   se a afirmação é verdade ou falsa.</legend>
+  <p>
+  <label>Verdadeira</label>
+  <input name="op2" type="radio" id="v">
+  <p>
+  <label>Falsa</label>
+  <input name="op2" type="radio" id="f">
+  <p>
+
+  <br> <button type="button" id="botao" onclick="corrigir()"> Corrigir </button>
+
+  </form>
+
+  <div class="hide" id="result" >
+  	<div> RESULTADO: </div>
+  	<div id="corretas">corretas:</div>
+  	<div id="percentual">percentual:</div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

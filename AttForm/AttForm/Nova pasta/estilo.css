@@ -1,0 +1,25 @@
+form{
+	font-size: 20px;
+}
+
+textarea{
+	height: 50px;
+	width: 600px;
+	border-color: green;
+	resize: none;
+	border-radius: 10px
+}
+
+#botao{
+	border-color: green;
+	border-radius: 40px;
+	width: 100px;
+    height: 40px; 
+    font-size: 17px;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
